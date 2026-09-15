@@ -1,0 +1,22 @@
+# Ignore all
+*
+
+# Do not ignore Java relevant files
+!.gitignore
+!*.java
+!*.md
+!*.txt
+!*.csv
+!*.png
+!*.xml
+!*.fxml
+!*.pdf
+!*/
+
+# Ignore not relevant folders
+/bin/
+/target/
+
+# Ignore CLAUDE
+/CLAUDE.md
+/.claude
