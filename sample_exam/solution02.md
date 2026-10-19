@@ -1,4 +1,4 @@
-# Aufgabe 2 (25)
+# Aufgabe 2 (25 Punkte)
 
 ## Klasse TerrainDice
 
