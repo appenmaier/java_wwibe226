@@ -61,4 +61,72 @@
 
 ## Cheatsheet
 
+**java.lang**
 
+| Klasse  | Methode                | Rückgabetyp | Level |
+| ------- | ---------------------- | ----------- | ----- |
+| Boolean | valueOf(s: String)     | Boolean     | S     |
+| Boolean | valueOf(b: boolean)    | Boolean     | S     |
+| Double  | valueOf(s: String)     | Double      | S     |
+| Double  | valueOf(d: double)     | Double      | S     |
+| Integer | valueOf(s: String)     | Integer     | S     |
+| Integer | valueOf(i: int)        | Integer     | S     |
+| Long    | valueOf(s: String)     | Long        | S     |
+| Long    | valueOf(l: long)       | Long        | S     |
+| Object  | equals(object: Object) | boolean     |       |
+| Object  | hashCode()             | int         |       |
+| Object  | toString()             | String      |       |
+| String  | charAt(index: int)     | char        |       |
+| String  | length()               | int         |       |
+| String  | split(regex: String)   | String[]    |       |
+| String  | toLowerCase()          | String      |       |
+| String  | toUpperCase()          | String      |       |
+| System  | currentTimeMillis()    | long        | S     |
+
+**java.time**
+
+| Klasse    | Methode                                    | Rückgabetyp | Level |
+| --------- | ------------------------------------------ | ----------- | ----- |
+| LocalDate | getDayOfMonth()                            | int         |       |
+| LocalDate | getDayOfYear()                             | int         |       |
+| LocalDate | getMonth()                                 | Month       |       |
+| LocalDate | getMonthValue()                            | int         |       |
+| LocalDate | getYear()                                  | int         |       |
+| LocalDate | now()                                      | LocalDate   | S     |
+| LocalDate | of(year: int, month: int, dayOfMonth: int) | LocalDate   | S     |
+| LocalDate | parse(text: CharSequence)                  | LocalDate   | S     |
+| LocalTime | getHour()                                  | int         |       |
+| LocalTime | getMinute()                                | int         |       |
+| LocalTime | getSecond()                                | int         |       |
+| LocalTime | now()                                      | LocalTime   | S     |
+| LocalTime | of(hour: int, minute: int, second: int)    | LocalTime   | S     |
+| LocalTime | parse(text: CharSequence)                  | LocalTime   | S     |
+
+**java.util**
+
+| Klasse      | Methode                     | Rückgabetyp   | Level |
+| ----------- | --------------------------- | ------------- | ----- |
+| Enumeration | valueOf(arg0: String)       | Enumeration   | S     |
+| Enumeration | values()                    | Enumeration[] | S     |
+| List<E>     | add(e: E)                   | boolean       |       |
+| List<E>     | add(index: int, element: E) | void          |       |
+| List<E>     | contains(o: Object)         | boolean       |       |
+| List<E>     | get(index: int)             | E             |       |
+| List<E>     | of(elements: E...)          | List<E>       | S     |
+| List<E>     | remove(index: int)          | E             |       |
+| List<E>     | remove(o: Object)           | boolean       |       |
+| List<E>     | size()                      | int           |       |
+| Scanner     | hasNextLine()               | boolean       |       |
+| Scanner     | next()                      | String        |       |
+| Scanner     | nextBoolean()               | boolean       |       |
+| Scanner     | nextDouble()                | double        |       |
+| Scanner     | nextInt()                   | int           |       |
+| Scanner     | nextLine()                  | String        |       |
+
+**java.io**
+
+| Klasse      | Methode            | Rückgabetyp | Level |
+| ----------- | ------------------ | ----------- | ----- |
+| PrintStream | print(obj: Object) | void        |       |
+| PrintStream | println()          | void        |       |
+| PrintStream | println(x: Object) | void        |       |
