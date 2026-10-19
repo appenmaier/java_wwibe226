@@ -19,7 +19,7 @@ public class TerrainDice { // 0,5
 } // 5
 ```
 
-##Klasse MainClass
+## Klasse MainClass
 
 ```java
 public class MainClass { // 0,5
