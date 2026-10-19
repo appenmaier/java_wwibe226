@@ -37,6 +37,10 @@
 - Termin 10, 10.12.2026
   - Klausurvorbereitung
 
+## Musterklausur
+
+[Musterklausur](sample-exam/java1.md)
+
 ## Klausurergebnisse
 
 | Note         | Klausur Q1 2026 (WWIBE225) | Klausur Q4 2024 (WWIBE224) | Klausur Q1 2023 (WWIBE123) | Klausur Q4 2022 (WWIBE122) | Klausur Q1 2021 (WWIBE121) | Klausur Q4 2020 (WWIBE120) | Durchschnitt |
