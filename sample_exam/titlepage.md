@@ -2,13 +2,13 @@
 
 ## Punkte
 
-| Aufgabe        | Maximale Punktzahl | Erreichte Punktzahl |
-| -------------- | ------------------ | ------------------- |
-| [1](task01.md) | 18                 |                     |
-| [2](task02.md) | 25                 |                     |
-| [3](task03.md) | 30                 |                     |
-| [4](task04.md) | 28                 |                     |
-| **Gesamt**     | **101**            |                     |
+| Aufgabe    | Maximale Punktzahl | Erreichte Punktzahl |
+| ---------- | ------------------ | ------------------- |
+| 1          | 18                 |                     |
+| 2          | 25                 |                     |
+| 3          | 30                 |                     |
+| 4          | 28                 |                     |
+| **Gesamt** | **101**            |                     |
 
 ## Hinweise
 
@@ -51,3 +51,14 @@
 | jersey          | Trikot      |
 | player          | Spieler     |
 | save percentage | Fangquote   |
+
+## Aufgaben
+
+- [Aufgabe 1](task01.md) ([Musterlösung](solution01.md))
+- [Aufgabe 2](task02.md) ([Musterlösung](solution02.md))
+- [Aufgabe 3](task03.md) ([Musterlösung](solution03.md))
+- [Aufgabe 4](task04.md) ([Musterlösung](solution04.md))
+
+## Cheatsheet
+
+
