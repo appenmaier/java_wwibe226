@@ -39,7 +39,7 @@
 
 ## Musterklausur
 
-[Musterklausur](sample-exam/java1.md)
+[Musterklausur](sample-exam/java1/exam.md)
 
 ## Klausurergebnisse
 
