@@ -2,13 +2,13 @@
 
 ## Punkte
 
-| Aufgabe    | Maximale Punktzahl | Erreichte Punktzahl |
-| ---------- | ------------------ | ------------------- |
-| 1          | 18                 |                     |
-| 2          | 25                 |                     |
-| 3          | 30                 |                     |
-| 4          | 28                 |                     |
-| **Gesamt** | **101**            |                     |
+| Aufgabe        | Maximale Punktzahl | Erreichte Punktzahl |
+| -------------- | ------------------ | ------------------- |
+| [1](task01.md) | 18                 |                     |
+| [2](task02.md) | 25                 |                     |
+| [3](task03.md) | 30                 |                     |
+| [4](task04.md) | 28                 |                     |
+| **Gesamt**     | **101**            |                     |
 
 ## Hinweise
 
