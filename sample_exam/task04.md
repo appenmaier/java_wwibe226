@@ -66,4 +66,4 @@ Neuer;1;G;92.5
 Lewandowski;9;F
 ```
 
-Jede Zeile enthält **Name**, **Trikotnummer** und **Typ** (`G` für Torwart, `F` für Feldspieler), getrennt durch Semikolons. Bei Torhütern folgt als viertes Feld die **Fangquote**.
+Jede Zeile enthält **Name**, **Trikotnummer** und **Typ** (**G** für Torwart, **F** für Feldspieler), getrennt durch Semikolons. Bei Torhütern folgt als viertes Feld die **Fangquote**.
