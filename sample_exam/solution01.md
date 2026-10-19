@@ -1,4 +1,4 @@
-# Aufgabe 1 (18)
+# Aufgabe 1 (18 Punkte)
 
 - Eine Variable kann nach ihrer Initialisierung erneut einen anderen Wert zugewiesen bekommen. Eine Konstante hingegen wird einmalig initialisiert und kann danach nicht mehr verändert werden (Schlüsselwort **final**) (2).
 
