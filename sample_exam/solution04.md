@@ -1,4 +1,4 @@
-# Aufgabe 4 (28)
+# Aufgabe 4 (28 Punkte)
 
 ## Klasse GoalKeeper
 
