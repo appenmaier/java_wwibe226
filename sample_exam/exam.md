@@ -1,15 +1,5 @@
 # Musterklausur Einführung in die Programmierung
 
-## Punkte
-
-| Aufgabe    | Maximale Punktzahl | Erreichte Punktzahl |
-| ---------- | ------------------ | ------------------- |
-| 1          | 18                 |                     |
-| 2          | 25                 |                     |
-| 3          | 30                 |                     |
-| 4          | 28                 |                     |
-| **Gesamt** | **101**            |                     |
-
 ## Hinweise
 
 - Die in dieser Klausur verwendeten Personenbezeichnungen beziehen sich – sofern nicht anders kenntlich gemacht – auf alle Geschlechter
@@ -54,10 +44,10 @@
 
 ## Aufgaben
 
-- [Aufgabe 1](task01.md) ([Musterlösung](solution01.md))
-- [Aufgabe 2](task02.md) ([Musterlösung](solution02.md))
-- [Aufgabe 3](task03.md) ([Musterlösung](solution03.md))
-- [Aufgabe 4](task04.md) ([Musterlösung](solution04.md))
+- [Aufgabe 1 (18 Punkte)](task01.md) ([Musterlösung](solution01.md))
+- [Aufgabe 2 (25 Punkte)](task02.md) ([Musterlösung](solution02.md))
+- [Aufgabe 3 (30 Punkte)](task03.md) ([Musterlösung](solution03.md))
+- [Aufgabe 4 (28 Punkte)](task04.md) ([Musterlösung](solution04.md))
 
 ## Cheatsheet
 
