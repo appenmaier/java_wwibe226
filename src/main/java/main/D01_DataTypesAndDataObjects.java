@@ -1,7 +1,9 @@
 package main;
 
 /**
- * Data Types and Data Objects
+ * Demonstrates Java's primitive data types ({@code int}, {@code double}, {@code boolean},
+ * {@code char}) and reference types ({@code String}), including declaration, initialization,
+ * reassignment, and the use of {@code final} for immutable data objects.
  *
  * @author Daniel Appenmaier
  * @version 1.0
@@ -9,6 +11,7 @@ package main;
  */
 public class D01_DataTypesAndDataObjects {
 
+   @SuppressWarnings("unused")
    public static void main(String[] args) {
       /* Declarations */
       int age; // byte, short, long
@@ -17,15 +20,17 @@ public class D01_DataTypesAndDataObjects {
       String firstName;
       String familyName;
 
-      /* Initializations */
+      /* Initializations / Value Assignments */
       age = 43;
+      age = 44;
       sizeInM = 1.79;
       isMale = true;
       firstName = "Daniel";
       familyName = "Appenmaier";
 
-      /* Value Assignments */
-      age = 44;
+      /* Special Forms */
+      String hairColor = "Brown"; // Declaration with Initialization
+      int a, b, c; // Multiple Declaration
 
       /* Immutable Data Objects */
       final char gender = 'M';
@@ -37,6 +42,7 @@ public class D01_DataTypesAndDataObjects {
       System.out.println("gender: " + gender);
       System.out.println("firstName: " + firstName);
       System.out.println("familyName: " + familyName);
+      System.out.println("hairColor: " + hairColor);
    }
 
 }
