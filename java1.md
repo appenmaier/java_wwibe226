@@ -3,8 +3,8 @@
 ## Skript
 
 - Termin 1, 20.10.2026
-  - Programmieren
-  - Programmausführung
+  - [Programmieren](skript/java1/coding.md)
+  - [Programmausführung](skript/java1/coding.md)
 - Termin 2, 23.10.2026
   - Git
   - Aufbau einer Klasse und statische Methoden
