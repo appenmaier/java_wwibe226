@@ -94,24 +94,27 @@
 
 **java.util**
 
-| Klasse      | Methode                     | Rückgabetyp   | Level |
-| ----------- | --------------------------- | ------------- | ----- |
-| Enumeration | valueOf(arg0: String)       | Enumeration   | S     |
-| Enumeration | values()                    | Enumeration[] | S     |
-| List<E>     | add(e: E)                   | boolean       |       |
-| List<E>     | add(index: int, element: E) | void          |       |
-| List<E>     | contains(o: Object)         | boolean       |       |
-| List<E>     | get(index: int)             | E             |       |
-| List<E>     | of(elements: E...)          | List<E>       | S     |
-| List<E>     | remove(index: int)          | E             |       |
-| List<E>     | remove(o: Object)           | boolean       |       |
-| List<E>     | size()                      | int           |       |
-| Scanner     | hasNextLine()               | boolean       |       |
-| Scanner     | next()                      | String        |       |
-| Scanner     | nextBoolean()               | boolean       |       |
-| Scanner     | nextDouble()                | double        |       |
-| Scanner     | nextInt()                   | int           |       |
-| Scanner     | nextLine()                  | String        |       |
+| Klasse      | Methode                          | Rückgabetyp   | Level |
+| ----------- | -------------------------------- | ------------- | ----- |
+| Enumeration | valueOf(arg0: String)            | Enumeration   | S     |
+| Enumeration | values()                         | Enumeration[] | S     |
+| List<E>     | add(e: E)                        | boolean       |       |
+| List<E>     | add(index: int, element: E)      | void          |       |
+| List<E>     | contains(o: Object)              | boolean       |       |
+| List<E>     | get(index: int)                  | E             |       |
+| List<E>     | of(elements: E...)               | List<E>       | S     |
+| List<E>     | remove(index: int)               | E             |       |
+| List<E>     | remove(o: Object)                | boolean       |       |
+| List<E>     | size()                           | int           |       |
+| Random      | nextBoolean()                    | boolean       |       |
+| Random      | nextInt(bound: int)              | int           |       |
+| Random      | nextInt(origin: int, bound: int) | int           |       |
+| Scanner     | hasNextLine()                    | boolean       |       |
+| Scanner     | next()                           | String        |       |
+| Scanner     | nextBoolean()                    | boolean       |       |
+| Scanner     | nextDouble()                     | double        |       |
+| Scanner     | nextInt()                        | int           |       |
+| Scanner     | nextLine()                       | String        |       |
 
 **java.io**
 
