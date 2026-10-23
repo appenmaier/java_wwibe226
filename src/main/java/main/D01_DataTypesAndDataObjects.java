@@ -37,10 +37,27 @@ public class D01_DataTypesAndDataObjects {
       /* Special Forms */
       String hairColor = "Brown"; // Declaration with Initialization
       int a, b, c; // Multiple Declaration
+
       long bigNumber = 123_445_821_912_432L;
+
       float float1 = 0.1F;
       // BigDecimal reveals the full floating-point imprecision hidden by float's limited output
       BigDecimal bigDecimal1 = new BigDecimal(0.1F);
+
+      /* Characters */
+      char char1 = 0b1000001;
+      char char2 = 0101;
+      char char3 = 0x41;
+      char char4 = 65;
+      char char5 = 'A';
+      char char6 = '\u0041';
+
+      System.out.println("char1: " + char1); // A
+      System.out.println("char2: " + char2); // A
+      System.out.println("char3: " + char3); // A
+      System.out.println("char4: " + char4); // A
+      System.out.println("char5: " + char5); // A
+      System.out.println("char6: " + char6); // A
 
       /* Immutable Data Objects */
       final char gender = 'M';
