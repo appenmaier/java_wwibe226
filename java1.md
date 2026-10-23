@@ -37,6 +37,13 @@
 - Termin 10, 10.12.2026
   - Klausurvorbereitung
 
+## Gestaltungsprinzipien
+
+| Prinzip | Bedeutung               |
+| ------- | ----------------------- |
+| DRY     | Don´t Repeat Yourself   |
+| KISS    | Keep It Simple, Stupid! |
+
 ## Musterklausur
 
 [Musterklausur](sample-exam/java1/exam.md)
