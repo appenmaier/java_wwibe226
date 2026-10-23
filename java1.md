@@ -7,8 +7,8 @@
   - [Programmausführung](skript/java1/execution.md)
 - Termin 2, 23.10.2026
   - [Git](skript/java1/git.md)
-  - [Aufbau einer Klasse und statische Methoden](skript/java1/class-structure.md)
   - [Binärzahlen, Primitive Datentypen, Datenobjekte und Typumwandlungen](skript/java1/datatypes-and-dataobjects.md)
+  - [Aufbau einer Klasse und statische Methoden](skript/java1/class-structure.md)
   - [Zeichenketten (Strings)](skript/java1/strings.md)
   - [Mathematische Operatoren, Mathematische Berechnungen und Pseudozufallszahlen](skript/java1/calculations.md)
 - Termin 3, 27.10.2026
