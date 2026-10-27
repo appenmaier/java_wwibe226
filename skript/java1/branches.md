@@ -11,6 +11,6 @@
 
 - [Doku: Verzweigungen und Fallunterscheidungen](https://jappuccini.github.io/java-docs/production/documentation/cases)
 - [Übungsaufgaben: Verzweigungen](https://jappuccini.github.io/java-docs/production/exercises/cases/) (ohne Cases06)
-- [Demo 8: Branches](../../src/main/java/main/D108_Branches.java)
+- [Demo 8: Branches](../../src/main/java/main/D08_Branches.java)
 - [Demo 9: String Comparisons](../../src/main/java/main/D09_StringComparison.java)
 - [Demo 10: Conditional Branches](../../src/main/java/main/D10_ConditionalBranches.java)
