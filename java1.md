@@ -12,9 +12,10 @@
   - [Zeichenketten (Strings)](skript/java1/strings.md)
   - [Mathematische Operatoren, Mathematische Berechnungen und Pseudozufallszahlen](skript/java1/calculations.md)
 - Termin 3, 27.10.2026
-  - Konsoleneingaben und Konsolenausgaben
+  - [Konsoleneingaben und Konsolenausgaben](skript/java1/io.md)
+  - [Verzweigungen, Vergleich von Zeichenketten und Bedingte Zuweisungen](skript/java1/branches.md)
 - Termin 4, 30.10.2026
-  - Verzweigungen, Vergleich von Zeichenketten, Bedingte Zuweisungen und Fallunterscheidungen
+  - Fallunterscheidungen
   - Schleifen und Schleifensteuerung
 - Termin 5, 05.11.2026
   - Felder (Arrays), String\[\] args, Variable Argumentlisten und Multidimensionale Felder
