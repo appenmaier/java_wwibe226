@@ -15,21 +15,22 @@
   - [Konsoleneingaben und Konsolenausgaben](skript/java1/io.md)
   - [Verzweigungen, Vergleich von Zeichenketten und Bedingte Zuweisungen](skript/java1/branches.md)
 - Termin 4, 30.10.2026
-  - Fallunterscheidungen
-  - Schleifen und Schleifensteuerung
+  - [Fallunterscheidungen](skript/java1/cases.md)
+  - [Schleifen und Schleifensteuerung](skript/java1/loops.md)
+  - [Felder (Arrays) und String\[\] args](skript/java1/arrays.md)
 - Termin 5, 05.11.2026
-  - Felder (Arrays), String\[\] args, Variable Argumentlisten und Multidimensionale Felder
-- Termin 6, 13.11.2026
+  - Wiederholung Termin 1-4
   - Klassen, Attribute, Methoden und Objekte
   - ArrayLists
   - Datenkapselung
-- Termin 7, 24.11.2026
+- Termin 6, 13.11.2026
   - Konstruktoren und überladene Methoden
   - String toString()
   - Statische und nichtstatische Elemente
+- Termin 7, 24.11.2026
   - For-Each-Schleife, Die Java API, Lesen von Dateien und Aufzählungen (Enumerations)
-- Termin 8, 27.11.2026
   - Klassendiagramme und Aktivitätsdiagramme
+- Termin 8, 27.11.2026
   - Vererbung und (Dynamische) Polymorphie
 - Termin 9, 01.12.2026
   - Die Mutter aller Klassen
