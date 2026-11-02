@@ -15,7 +15,7 @@
   - [Konsoleneingaben und Konsolenausgaben](skript/java1/io.md)
   - [Verzweigungen, Vergleich von Zeichenketten und Bedingte Zuweisungen](skript/java1/branches.md)
 - Termin 4, 30.10.2026
-  - [Fallunterscheidungen](skript/java1/casess.md)
+  - [Fallunterscheidungen](skript/java1/cases.md)
   - [Schleifen und Schleifensteuerung](skript/java1/loops.md)
   - [Felder (Arrays) und String\[\] args](skript/java1/arrays.md)
 - Termin 5, 05.11.2026
