@@ -17,12 +17,13 @@ public class D14_Arrays {
 
       String[] names = {"Hans", null, "Peter"};
 
-      /* Element Access */
+      /* Length of an Array */
       System.out.println("numbers.length: " + numbers.length);
       System.out.println("names.length: " + names.length);
 
       System.out.println();
 
+      /* Element Access */
       numbers[0] = 7;
       numbers[3] = 6;
       numbers[numbers.length - 1] = 3;
