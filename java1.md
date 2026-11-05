@@ -19,11 +19,12 @@
   - [Schleifen und Schleifensteuerung](skript/java1/loops.md)
   - [Felder (Arrays) und String\[\] args](skript/java1/arrays.md)
 - Termin 5, 05.11.2026
-  - Wiederholung Termin 1-4
-  - Klassen, Attribute, Methoden und Objekte
+  - [Wiederholung Termin 1-4](skript/java1/repetition1.md)
+  - [Klassen, Attribute und Methoden](skript/java1/oo.md)
+- Termin 6, 13.11.2026
+  - Objekte und Referenzen
   - ArrayLists
   - Datenkapselung
-- Termin 6, 13.11.2026
   - Konstruktoren und überladene Methoden
   - String toString()
   - Statische und nichtstatische Elemente
