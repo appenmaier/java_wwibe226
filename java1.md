@@ -19,8 +19,8 @@
   - [Schleifen und Schleifensteuerung](skript/java1/loops.md)
   - [Felder (Arrays) und String\[\] args](skript/java1/arrays.md)
 - Termin 5, 05.11.2026
-  - [Wiederholung Termin 1-4](repetition1.md)
-  - [Klassen, Attribute und Methoden](oo.md)
+  - [Wiederholung Termin 1-4](skript/java1/repetition1.md)
+  - [Klassen, Attribute und Methoden](skript/java1/oo.md)
 - Termin 6, 13.11.2026
   - Objekte und Referenzen
   - ArrayLists
