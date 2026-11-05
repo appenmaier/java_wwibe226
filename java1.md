@@ -20,8 +20,9 @@
   - [Felder (Arrays) und String\[\] args](skript/java1/arrays.md)
 - Termin 5, 05.11.2026
   - [Wiederholung Termin 1-4](repetition1.md)
-  - [Klassen, Attribute, Methoden und Objekte](oo.md)
+  - [Klassen, Attribute und Methoden](oo.md)
 - Termin 6, 13.11.2026
+  - Objekte und Referenzen
   - ArrayLists
   - Datenkapselung
   - Konstruktoren und überladene Methoden
