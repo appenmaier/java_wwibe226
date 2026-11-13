@@ -45,4 +45,9 @@ public class LightBulb {
       return color;
    }
 
+   @Override
+   public String toString() {
+      return "LightBulb [color=" + color + "]";
+   }
+
 }

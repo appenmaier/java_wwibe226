@@ -77,4 +77,10 @@ public class TableLight {
       return isOn;
    }
 
+   @Override
+   public String toString() {
+      return "TableLight [isConnected=" + isConnected + ", isOn=" + isOn + ", lightBulb="
+            + lightBulb + "]";
+   }
+
 }
