@@ -22,8 +22,10 @@ public class D20_References {
 
       System.out.println("i: " + i);
       System.out.println("x: " + x);
-      System.out.println(light1 + ".isConnected: " + light1.isConnected);
-      System.out.println(light2 + ".isConnected: " + light2.isConnected);
+      // System.out.println(light1 + ".isConnected: " + light1.isConnected);
+      System.out.println(light1 + ".isConnected: " + light1.isConnected());
+      // System.out.println(light2 + ".isConnected: " + light2.isConnected);
+      System.out.println(light2 + ".isConnected: " + light2.isConnected());
    }
 
 }

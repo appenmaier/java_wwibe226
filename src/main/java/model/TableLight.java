@@ -4,9 +4,9 @@ package model;
 public class TableLight {
 
    /* Attributes */
-   public boolean isConnected;
-   public boolean isOn;
-   public LightBulb lightBulb;
+   private boolean isConnected;
+   private boolean isOn;
+   private LightBulb lightBulb;
 
    /* Methods */
    /** Connects the lamp to the power supply. */
@@ -63,6 +63,18 @@ public class TableLight {
 
       /* Variant C */
       return isConnected && isOn && lightBulb != null;
+   }
+
+   public LightBulb getLightBulb() {
+      return lightBulb;
+   }
+
+   public boolean isConnected() {
+      return isConnected;
+   }
+
+   public boolean isOn() {
+      return isOn;
    }
 
 }

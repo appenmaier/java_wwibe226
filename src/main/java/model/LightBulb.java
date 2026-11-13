@@ -4,6 +4,15 @@ package model;
 public class LightBulb {
 
    /* Attributes */
-   public String color;
+   private String color;
+
+   /* Methods */
+   public void setColor(String color) {
+      this.color = color;
+   }
+
+   public String getColor() {
+      return color;
+   }
 
 }

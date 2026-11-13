@@ -14,12 +14,15 @@ public class D16_Classes {
       LightBulb blueLightBulb = new LightBulb();
       LightBulb redLightBulb = new LightBulb();
 
-      blueLightBulb.color = "blue";
-      redLightBulb.color = "red";
+      // blueLightBulb.color = "blue";
+      blueLightBulb.setColor("blue");
+      // redLightBulb.color = "red";
+      redLightBulb.setColor("red");
 
       boolean isShining = light1.isShining();
       if (isShining) {
-         System.out.println("light shines " + light1.lightBulb.color);
+         // System.out.println("light shines " + light1.lightBulb.color);
+         System.out.println("light shines " + light1.getLightBulb().getColor());
       } else {
          System.out.println("light doesn't shine");
       }
@@ -30,17 +33,19 @@ public class D16_Classes {
 
       isShining = light1.isShining();
       if (isShining) {
-         System.out.println("light shines " + light1.lightBulb.color);
+         // System.out.println("light shines " + light1.lightBulb.color);
+         System.out.println("light shines " + light1.getLightBulb().getColor());
       } else {
          System.out.println("light doesn't shine");
       }
 
       LightBulb oldLightBulb = light1.changeLightBulb(blueLightBulb);
-      System.out.println("old light bulb color was " + oldLightBulb.color);
+      System.out.println("light shines " + oldLightBulb.getColor());
 
       isShining = light1.isShining();
       if (isShining) {
-         System.out.println("light shines " + light1.lightBulb.color);
+         // System.out.println("light shines " + light1.lightBulb.color);
+         System.out.println("light shines " + light1.getLightBulb().getColor());
       } else {
          System.out.println("light doesn't shine");
       }
