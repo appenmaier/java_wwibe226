@@ -22,14 +22,14 @@
   - [Wiederholung Termin 1-4](skript/java1/repetition1.md)
   - [Klassen, Attribute und Methoden](skript/java1/oo.md)
 - Termin 6, 13.11.2026
-  - Objekte und Referenzen
-  - ArrayLists
-  - Datenkapselung
-  - Konstruktoren und überladene Methoden
-  - String toString()
-  - Statische und nichtstatische Elemente
+  - [Objekte und Referenzen](skript/java1/references.md)
+  - [Datenkapselung](skript/java1/data-encapsulation.md)
+  - [Konstruktoren und überladene Methoden](skript/java1/constructors.md)
+  - [String toString()](skript/java1/tostring.md)
 - Termin 7, 24.11.2026
-  - For-Each-Schleife, Die Java API, Lesen von Dateien und Aufzählungen (Enumerations)
+  - Statische und nichtstatische Elemente
+  - ArrayLists und For-Each-Schleife
+  - Die Java API, Lesen von Dateien und Aufzählungen (Enumerations)
   - Klassendiagramme und Aktivitätsdiagramme
 - Termin 8, 27.11.2026
   - Vererbung und (Dynamische) Polymorphie
