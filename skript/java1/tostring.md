@@ -1,4 +1,4 @@
-# toString()
+# String toString()
 
 **Abbildungen**
 
@@ -8,4 +8,4 @@
 
 - [Doku: Die Mutter aller Klassen](https://jappuccini.github.io/java-docs/production/documentation/object)
 - [Übungsaufgaben: Objektorientierte Prorgammierung](https://jappuccini.github.io/java-docs/production/exercises/oo/)
-- [Demo 23: toString()](../../src/main/java/main/D23_ToString.java)
+- [Demo 23: String toString()](../../src/main/java/main/D23_ToString.java)
