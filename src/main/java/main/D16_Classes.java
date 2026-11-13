@@ -11,13 +11,15 @@ public class D16_Classes {
 
    public static void main(String[] args) {
       TableLight light1 = new TableLight();
-      LightBulb blueLightBulb = new LightBulb();
-      LightBulb redLightBulb = new LightBulb();
+      // LightBulb blueLightBulb = new LightBulb();
+      // LightBulb redLightBulb = new LightBulb();
+      LightBulb blueLightBulb = new LightBulb("blue");
+      LightBulb redLightBulb = new LightBulb("red");
 
       // blueLightBulb.color = "blue";
-      blueLightBulb.setColor("blue");
+      // blueLightBulb.setColor("blue");
       // redLightBulb.color = "red";
-      redLightBulb.setColor("red");
+      // redLightBulb.setColor("red");
 
       boolean isShining = light1.isShining();
       if (isShining) {

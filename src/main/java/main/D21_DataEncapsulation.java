@@ -4,15 +4,16 @@ import model.LightBulb;
 import model.TableLight;
 
 /**
- * Demo 21: demonstrates data encapsulation by using setters and getters instead of direct field access.
+ * Demo 21: demonstrates data encapsulation by using setters and getters instead of direct field
+ * access.
  */
 public class D21_DataEncapsulation {
 
    public static void main(String[] args) {
-      LightBulb redLightBulb = new LightBulb();
+      LightBulb redLightBulb = new LightBulb("red");
+      // LightBulb redLightBulb = new LightBulb();
       // redLightBulb.color = "red";
-      redLightBulb.setColor("red");
-      redLightBulb.setColor("blue");
+      // redLightBulb.setColor("red");
 
       TableLight light1 = new TableLight();
       // light1.isConnected = true;
