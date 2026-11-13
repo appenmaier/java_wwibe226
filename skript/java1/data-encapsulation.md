@@ -8,4 +8,5 @@
 **Links**
 
 - [Doku: Objektorientierte Programmierung](https://jappuccini.github.io/java-docs/production/documentation/oo)
+- [Übungsaufgaben: Objektorientierte Prorgammierung](https://jappuccini.github.io/java-docs/production/exercises/oo/) (OO01)
 - [Demo 21: Data Encapsulation](../../src/main/java/main/D21_DataEncapsulation.java)
