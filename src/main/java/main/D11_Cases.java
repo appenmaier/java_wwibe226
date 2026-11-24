@@ -23,7 +23,7 @@ public class D11_Cases {
       } else if (gender == 'd' || gender == 'D') {
          genderText = "diverse";
       } else {
-         genderText = "";
+         genderText = "unknown";
       }
       System.out.println(genderText);
 
@@ -32,7 +32,7 @@ public class D11_Cases {
          case 'm', 'M' -> "male";
          case 'f', 'F' -> "female";
          case 'd', 'D' -> "diverse";
-         default       -> "";
+         default       -> "unknown";
       };
       System.out.println(genderText);
    }

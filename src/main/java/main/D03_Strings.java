@@ -1,11 +1,8 @@
 package main;
 
 /**
- * Demonstrates common {@link String} operations, including length queries,
+ * Demo 03: demonstrates common {@link String} operations, including length queries,
  * character access, and string concatenation to build a SQL query.
- *
- * @author Daniel Appenmaier
- * @version 1.0
  */
 public class D03_Strings {
 
@@ -26,8 +23,8 @@ public class D03_Strings {
       /* Concatenation of Strings */
       String fields = "id, name";
       String table = "Person";
-      // Escaped quotes allow embedding a string literal inside the SQL condition
-      String condition = "name = \"Appenmaier\"";
+      // Single quotes delimit a string value in SQL
+      String condition = "name = 'Appenmaier'";
       // \n produces newline characters so each SQL clause appears on its own line
       String sqlQuery = "SELECT " + fields + "\nFROM " + table + "\nWHERE " + condition + ";";
 

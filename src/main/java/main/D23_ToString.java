@@ -12,7 +12,7 @@ import model.TableLight;
 public class D23_ToString {
 
    public static void main(String[] args) {
-      String text = new String("Hello World");
+      String text = "Hello World";
       LightBulb lightBulb = new LightBulb("white");
       TableLight tableLight = new TableLight();
       LocalDate now = LocalDate.now();

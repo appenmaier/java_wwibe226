@@ -17,6 +17,7 @@ public class E05_DiceGame17 {
       int[] dice2 = new int[5]; // [0][0][0][0][0]
 
       Scanner scanner = new Scanner(System.in);
+      Random random = new Random();
 
       System.out.print("Player 1, enter name: ");
       name1 = scanner.next();
@@ -25,19 +26,20 @@ public class E05_DiceGame17 {
 
       System.out.println();
 
-      System.out.println("Round - Throw value " + name1 + " - Throw value " + name2 + " - Difference");
+      // %-8s left-aligns the headers to the same column width as the data rows below
+      System.out.printf("%-8s %-10s %-10s %s%n", "Round", name1, name2, "Difference");
       for (int i = 1; i <= 5; i++) {
          /* Roll the Dice */
-         for (int x = 0; x < dice1.length; x++) {
-            dice1[x] = E05_DiceGame17.rollTheDice(); // rollTheDice(); [5][2][5][1][6]
-            dice2[x] = E05_DiceGame17.rollTheDice(); // rollTheDice(); [4][3][2][2][5]
+         for (int j = 0; j < dice1.length; j++) {
+            dice1[j] = E05_DiceGame17.rollTheDice(random);
+            dice2[j] = E05_DiceGame17.rollTheDice(random);
          }
 
          /* Sum the Dice Values */
          int total1 = 0, total2 = 0;
-         for (int x = 0; x < dice1.length; x++) {
-            total1 += dice1[x];
-            total2 += dice2[x];
+         for (int j = 0; j < dice1.length; j++) {
+            total1 += dice1[j];
+            total2 += dice2[j];
          }
 
          /* Calculate Difference */
@@ -50,25 +52,31 @@ public class E05_DiceGame17 {
          }
 
          /* Output */
-         System.out.println(i + " - " + total1 + " - " + total2 + " - " + difference);
+         System.out.printf("%-8d %-10d %-10d %d%n", i, total1, total2, difference);
       }
 
       System.out.println();
       System.out.println(name1 + ": " + points1 + " points");
       System.out.println(name2 + ": " + points2 + " points");
+
+      /* Determine Winner */
+      if (points1 > points2) {
+         System.out.println(name1 + " wins!");
+      } else if (points2 > points1) {
+         System.out.println(name2 + " wins!");
+      } else {
+         System.out.println("It's a draw!");
+      }
    }
 
    /**
     * Returns a random dice roll result between 1 and 6 (inclusive).
     *
+    * @param random the random number generator to use
     * @return a random integer from 1 to 6
     */
-   public static int rollTheDice() {
-      Random random = new Random();
-
-      int randomNumber = random.nextInt(1, 7);
-
-      return randomNumber;
+   public static int rollTheDice(Random random) {
+      return random.nextInt(1, 7);
    }
 
 }

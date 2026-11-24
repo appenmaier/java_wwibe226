@@ -17,7 +17,7 @@ public class D26_FileScanner {
    public static void main(String[] args) throws FileNotFoundException {
       /* Absolute Pathname */
       // File file =
-      // new File("C:\\Users\\D054906\\git\\java_wwibe226\\src\\main\\resources\\persons.txt");
+      // new File("C:\\path\\to\\java_wwibe226\\src\\main\\resources\\persons.txt");
 
       /* Relative Pathname */
       File file = new File("src/main/resources/persons.txt");

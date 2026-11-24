@@ -30,15 +30,16 @@ public class D13_LoopControl {
       System.out.println();
 
       /* break: exits the loop immediately when the character is found */
-      int firstOccOfSearchChar = 0;
+      // -1 means "not found", following the convention used by String.indexOf
+      int firstIndex = -1;
       for (int i = 0; i < text.length(); i++) {
          char character = text.charAt(i);
          if (character == searchChar) {
-            firstOccOfSearchChar = i;
+            firstIndex = i;
             break;
          }
       }
-      System.out.println(firstOccOfSearchChar);
+      System.out.println(firstIndex);
    }
 
 }

@@ -20,9 +20,10 @@ public class E03_ConsoleApplications02 {
       System.out.print("Please enter another integer: ");
       b = scanner.nextInt();
 
-      // Integer division truncates; assigning to double preserves only the whole-number percentage
-      result = a * 100 / b;
+      // Casting to double forces floating-point division so the fractional part is preserved
+      result = (double) a * 100 / b;
 
+      // Two equivalent ways to print the result: string concatenation vs. formatted output
       System.out.println("Result: " + a + " of " + b + " is " + result + "%");
       System.out.printf("Result: %d of %d is %.2f%%%n", a, b, result);
    }
