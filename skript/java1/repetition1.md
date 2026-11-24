@@ -2,4 +2,4 @@
 
 **Links**
 
-[Klausuraufgabe: Dice Game 17](../../src/main/java/main/E05_DiceGame17.java)
+- [Klausuraufgabe: Dice Game 17](../../src/main/java/main/E05_DiceGame17.java)

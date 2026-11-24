@@ -11,7 +11,7 @@
 
 **Links**
 
-- [Doku: Objektorientierte Prorgammierung](https://jappuccini.github.io/java-docs/production/documentation/oo)
+- [Doku: Objektorientierte Programmierung](https://jappuccini.github.io/java-docs/production/documentation/oo)
 - [Demo 16: Classes](../../src/main/java/main/D16_Classes.java)
 - [Demo 17: Attributes](../../src/main/java/main/D17_Attributes.java)
 - [Demo 18: Methods](../../src/main/java/main/D18_Methods.java)

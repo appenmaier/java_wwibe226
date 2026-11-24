@@ -6,5 +6,5 @@
 
 **Links**
 
-- [Doku: Objektorientierte Prorgammierung](https://jappuccini.github.io/java-docs/production/documentation/oo)
+- [Doku: Objektorientierte Programmierung](https://jappuccini.github.io/java-docs/production/documentation/oo)
 - [Demo 20: References](../../src/main/java/main/D20_References.java)

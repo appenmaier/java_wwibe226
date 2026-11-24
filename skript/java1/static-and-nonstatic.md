@@ -6,5 +6,5 @@
 
 **Links**
 
-- [Doku: Objektorientierte Programmierung](https://jappuccini.github.io/java-docs/production/documentation/classes)
-- [Demo: Static and Non-Static Elements](../../src/main/java/main/D24_StaticAndNonStaticElements.java)
+- [Doku: Klassen](https://jappuccini.github.io/java-docs/production/documentation/classes)
+- [Demo 24: Static and Non-Static Elements](../../src/main/java/main/D24_StaticAndNonStaticElements.java)

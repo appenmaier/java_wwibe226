@@ -8,7 +8,7 @@
 
 **Links**
 
-- [Doku: Schleifen](https://jappuccini.github.io/java-docs/production/exercises/loops/)
+- [Doku: Schleifen](https://jappuccini.github.io/java-docs/production/documentation/loops)
 - [Übungsaufgaben: Schleifen](https://jappuccini.github.io/java-docs/production/exercises/loops/) (ohne Loops07 und Loops08)
 - [Demo 12: Loops](../../src/main/java/main/D12_Loops.java)
 - [Demo 13: Loop Control](../../src/main/java/main/D13_LoopControl.java)

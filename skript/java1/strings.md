@@ -6,5 +6,5 @@
 
 **Links**
 
-- [Doku: Zeichenketten (Strings](https://jappuccini.github.io/java-docs/production/documentation/strings)
+- [Doku: Zeichenketten (Strings)](https://jappuccini.github.io/java-docs/production/documentation/strings)
 - [Demo 3: Strings](../../src/main/java/main/D03_Strings.java)

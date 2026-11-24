@@ -1,4 +1,4 @@
-# String toString()
+# Die Methode toString()
 
 **Abbildungen**
 
@@ -7,5 +7,5 @@
 **Links**
 
 - [Doku: Die Mutter aller Klassen](https://jappuccini.github.io/java-docs/production/documentation/object)
-- [Übungsaufgaben: Objektorientierte Prorgammierung](https://jappuccini.github.io/java-docs/production/exercises/oo/)
+- [Übungsaufgaben: Objektorientierte Programmierung](https://jappuccini.github.io/java-docs/production/exercises/oo/)
 - [Demo 23: String toString()](../../src/main/java/main/D23_ToString.java)
