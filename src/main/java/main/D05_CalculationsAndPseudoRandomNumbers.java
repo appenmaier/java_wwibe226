@@ -3,11 +3,8 @@ package main;
 import java.util.Random;
 
 /**
- * Demonstrates {@link Math} utility methods and pseudo-random number generation
+ * Demo 05: demonstrates {@link Math} utility methods and pseudo-random number generation
  * using {@link Random}, including bounded integer ranges and a coin-flip boolean.
- *
- * @author Daniel Appenmaier
- * @version 1.0
  */
 public class D05_CalculationsAndPseudoRandomNumbers {
 

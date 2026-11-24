@@ -2,10 +2,6 @@ package helper;
 
 /**
  * Provides simple arithmetic operations on integers.
- *
- * @author Daniel Appenmaier
- * @version 1.0
- *
  */
 public class Calculator {
 
@@ -51,6 +47,7 @@ public class Calculator {
     * @param a the dividend
     * @param b the divisor (must not be zero)
     * @return the integer quotient of {@code a / b}
+    * @throws ArithmeticException if {@code b} is zero
     */
    public static int divide(int a, int b) {
       int c = a / b;

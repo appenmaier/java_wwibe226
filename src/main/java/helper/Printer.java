@@ -2,9 +2,6 @@ package helper;
 
 /**
  * Provides static utility methods for printing text to the console.
- *
- * @author Daniel Appenmaier
- * @version 1.0
  */
 public class Printer {
 

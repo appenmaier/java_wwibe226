@@ -4,11 +4,8 @@ import helper.Calculator;
 import helper.Printer;
 
 /**
- * Demonstrates the use of static utility methods from the {@link helper.Printer} and
+ * Demo 02: demonstrates the use of static utility methods from the {@link helper.Printer} and
  * {@link helper.Calculator} helper classes.
- *
- * @author Daniel Appenmaier
- * @version 1.0
  */
 public class D02_StaticMethods {
 

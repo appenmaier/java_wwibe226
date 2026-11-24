@@ -1,12 +1,9 @@
 package main;
 
 /**
- * Demonstrates arithmetic operators in Java, including the five base operations,
+ * Demo 04: demonstrates arithmetic operators in Java, including the five base operations,
  * increment/decrement shortcuts, pre- vs. post-increment, and the special
  * floating-point results produced by division by zero.
- *
- * @author Daniel Appenmaier
- * @version 1.0
  */
 public class D04_ArithmeticOperations {
 

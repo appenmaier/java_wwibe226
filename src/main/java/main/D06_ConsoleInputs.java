@@ -3,7 +3,7 @@ package main;
 import java.util.Scanner;
 
 /**
- * Demonstrates reading various data types from the console using {@link Scanner}.
+ * Demo 06: demonstrates reading various data types from the console using {@link Scanner}.
  */
 public class D06_ConsoleInputs {
 

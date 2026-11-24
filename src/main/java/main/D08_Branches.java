@@ -3,7 +3,8 @@ package main;
 import java.util.Scanner;
 
 /**
- * Demonstrates simple and complex conditional branches using {@code if}, {@code else if}, and {@code else}.
+ * Demo 08: demonstrates simple and complex conditional branches using {@code if}, {@code else if},
+ * and {@code else}.
  */
 public class D08_Branches {
 

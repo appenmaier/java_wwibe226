@@ -3,8 +3,8 @@ package main;
 import java.util.Locale;
 
 /**
- * Demonstrates formatted and unformatted console output using {@code print()}, {@code println()},
- * and {@code printf()}.
+ * Demo 07: demonstrates formatted and unformatted console output using {@code print()},
+ * {@code println()}, and {@code printf()}.
  */
 public class D07_ConsoleOutputs {
 

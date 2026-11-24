@@ -10,8 +10,8 @@ public class LegoFigure {
    private final String torso;
    private final LegoFigureLegs legs;
    private String headGear;
-   private String toolLeft;
-   private String toolRight;
+   private String leftTool;
+   private String rightTool;
 
    /* Methods */
 
@@ -40,19 +40,19 @@ public class LegoFigure {
    /**
     * Places a tool in the figure's left hand.
     *
-    * @param toolLeft the tool identifier for the left hand
+    * @param leftTool the tool identifier for the left hand
     */
-   public void setToolLeft(String toolLeft) {
-      this.toolLeft = toolLeft;
+   public void setLeftTool(String leftTool) {
+      this.leftTool = leftTool;
    }
 
    /**
     * Places a tool in the figure's right hand.
     *
-    * @param toolRight the tool identifier for the right hand
+    * @param rightTool the tool identifier for the right hand
     */
-   public void setToolRight(String toolRight) {
-      this.toolRight = toolRight;
+   public void setRightTool(String rightTool) {
+      this.rightTool = rightTool;
    }
 
    /**
@@ -87,18 +87,18 @@ public class LegoFigure {
       return headGear;
    }
 
-   public String getToolLeft() {
-      return toolLeft;
+   public String getLeftTool() {
+      return leftTool;
    }
 
-   public String getToolRight() {
-      return toolRight;
+   public String getRightTool() {
+      return rightTool;
    }
 
    @Override
    public String toString() {
       return "LegoFigure [head=" + head + ", torso=" + torso + ", legs=" + legs + ", headGear="
-            + headGear + ", toolLeft=" + toolLeft + ", toolRight=" + toolRight + "]";
+            + headGear + ", leftTool=" + leftTool + ", rightTool=" + rightTool + "]";
    }
 
 }

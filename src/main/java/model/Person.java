@@ -19,7 +19,7 @@ public class Person {
     * @param fullName  the person's full name
     * @param birthdate the person's date of birth
     * @param gender    the person's gender ({@code 'm'} or {@code 'f'})
-    * @param sizeInM   the person's height in metres
+    * @param sizeInM   the person's height in meters
     */
    public Person(String fullName, LocalDate birthdate, char gender, double sizeInM) {
       this.fullName = fullName;

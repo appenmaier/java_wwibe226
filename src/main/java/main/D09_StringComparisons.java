@@ -3,7 +3,8 @@ package main;
 import java.util.Scanner;
 
 /**
- * Demonstrates the difference between reference equality ({@code ==}) and value equality ({@code equals()}) for strings.
+ * Demo 09: demonstrates the difference between reference equality ({@code ==}) and value equality
+ * ({@code equals()}) for strings.
  */
 public class D09_StringComparisons {
 

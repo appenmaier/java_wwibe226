@@ -46,9 +46,10 @@ public class D19_Repetition1 {
       // redKnight.toolRight = "Sword";
       LegoFigure redKnight = new LegoFigure("Default", "Red Knight", redLegs);
       redKnight.setHeadGear("Knight Helmet");
-      redKnight.setToolLeft("Shield");
-      redKnight.setToolRight("Axe");
-      redKnight.setToolRight("Sword");
+      redKnight.setLeftTool("Shield");
+      // the second call overwrites the first: the last setter call wins
+      redKnight.setRightTool("Axe");
+      redKnight.setRightTool("Sword");
 
       // redKnight.present();
       System.out.println(redKnight);

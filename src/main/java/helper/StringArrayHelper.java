@@ -13,11 +13,11 @@ public class StringArrayHelper {
    public static String[] add(String[] array, String value) {
       // last slot occupied — double capacity and copy existing elements
       if (array[array.length - 1] != null) {
-         String[] tmp = new String[array.length * 2];
+         String[] resizedArray = new String[array.length * 2];
          for (int i = 0; i < array.length; i++) {
-            tmp[i] = array[i];
+            resizedArray[i] = array[i];
          }
-         array = tmp;
+         array = resizedArray;
       }
 
       for (int i = 0; i < array.length; i++) {

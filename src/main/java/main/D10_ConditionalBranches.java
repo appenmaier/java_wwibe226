@@ -3,7 +3,8 @@ package main;
 import java.util.Scanner;
 
 /**
- * Demonstrates the conditional (ternary) operator as a compact alternative to an {@code if-else} branch.
+ * Demo 10: demonstrates the conditional (ternary) operator as a compact alternative to an
+ * {@code if-else} branch.
  */
 public class D10_ConditionalBranches {
 
