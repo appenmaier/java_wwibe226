@@ -7,14 +7,25 @@ public class TableLight {
    private boolean isConnected;
    private boolean isOn;
    private LightBulb lightBulb;
+   private final PlugType plugType;
 
    private static int numberOfTableLights;
 
    /* Methods */
 
-   /** Creates a new table lamp and increments the shared instance counter. */
-   public TableLight() {
+   /**
+    * Creates a new table lamp with the given plug type and increments the shared instance counter.
+    *
+    * @param plugType the plug type of the lamp
+    */
+   public TableLight(PlugType plugType) {
+      this.plugType = plugType;
       numberOfTableLights++;
+   }
+
+   /** Creates a new table lamp with the default plug type {@link PlugType#TYPE_F}. */
+   public TableLight() {
+      plugType = PlugType.TYPE_F;
    }
 
    /** Connects the lamp to the power supply. */
@@ -85,10 +96,14 @@ public class TableLight {
       return isOn;
    }
 
+   public PlugType plugType() {
+      return plugType;
+   }
+
    @Override
    public String toString() {
       return "TableLight [isConnected=" + isConnected + ", isOn=" + isOn + ", lightBulb="
-            + lightBulb + "]";
+            + lightBulb + ", plugType=" + plugType + "]";
    }
 
    /**
