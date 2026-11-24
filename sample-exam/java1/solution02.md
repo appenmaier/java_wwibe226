@@ -48,7 +48,7 @@ public class MainClass { // 0,5
 
             Terrain terrain1 = dice.rollTheDice(); // 0,5
             player1.reduceStamina(terrain1.getStaminaCost()); // 1
-            System.out.println(player1.name() + " würfelt "
+            System.out.println(player1.getName() + " würfelt "
                     + terrain1.getDescription()
                     + " (Kosten: " + terrain1.getStaminaCost()
                     + ") - Ausdauer: "
@@ -56,7 +56,7 @@ public class MainClass { // 0,5
 
             Terrain terrain2 = dice.rollTheDice(); // 0,5
             player2.reduceStamina(terrain2.getStaminaCost()); // 1
-            System.out.println(player2.name() + " würfelt "
+            System.out.println(player2.getName() + " würfelt "
                     + terrain2.getDescription()
                     + " (Kosten: " + terrain2.getStaminaCost()
                     + ") - Ausdauer: "
@@ -67,11 +67,11 @@ public class MainClass { // 0,5
         if (player1.getStamina() <= 0 && player2.getStamina() <= 0) { // 1
             System.out.println("Unentschieden!"); // 0,5
         } else if (player1.getStamina() <= 0) { // 1
-            System.out.println(player1.name() + " hat keine Ausdauer mehr - "
-                    + player2.name() + " gewinnt!"); // 0,5
+            System.out.println(player1.getName() + " hat keine Ausdauer mehr - "
+                    + player2.getName() + " gewinnt!"); // 0,5
         } else { // 0,5
-            System.out.println(player2.name() + " hat keine Ausdauer mehr - "
-                    + player1.name() + " gewinnt!"); // 0,5
+            System.out.println(player2.getName() + " hat keine Ausdauer mehr - "
+                    + player1.getName() + " gewinnt!"); // 0,5
         }
     } // 17,5
 

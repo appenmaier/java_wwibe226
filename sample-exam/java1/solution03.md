@@ -52,19 +52,19 @@ public class Nursery { // 0,5
 
     public List<Plant> getPlantsByType(PlantType type) { // 0,5
         List<Plant> result = new ArrayList<>(); // 0,5
-        for (Plant p : plants) { // 1
-            if (p.getType() == type) { // 1
-                result.add(p); // 0,5
+        for (Plant plant : plants) { // 1
+            if (plant.getType() == type) { // 1
+                result.add(plant); // 0,5
             }
         }
         return result; // 0,5
     } // 4
 
     public Plant getPlantBySunlight(double minSunlightHours) { // 0,5
-        for (Plant p : plants) { // 1
-            if (p.getCareInstructions().getSunlightHoursPerDay()
+        for (Plant plant : plants) { // 1
+            if (plant.getCareInstructions().getSunlightHoursPerDay()
                     >= minSunlightHours) { // 1,5
-                return p; // 0,5
+                return plant; // 0,5
             }
         }
         return null; // 0,5

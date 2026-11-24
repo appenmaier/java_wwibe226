@@ -33,8 +33,8 @@ public class SoccerTeam { // 0,5
     } // 1,5
 
     public boolean hasGoalkeeperWithNoSaves() { // 0,5
-        for (AbstractPlayer p : players) { // 1
-            if (p instanceof GoalKeeper gk && gk.getSavePercentage() == 0) { // 1,5
+        for (AbstractPlayer player : players) { // 1
+            if (player instanceof GoalKeeper gk && gk.getSavePercentage() == 0) { // 1,5
                 return true; // 0,5
             }
         }
@@ -43,8 +43,8 @@ public class SoccerTeam { // 0,5
 
     public int getTotalGoalsScored() { // 0,5
         int total = 0; // 0,5
-        for (AbstractPlayer p : players) { // 1
-            if (p instanceof FieldPlayer fp) { // 1
+        for (AbstractPlayer player : players) { // 1
+            if (player instanceof FieldPlayer fp) { // 1
                 total += fp.getGoalsScored(); // 1
             }
         }
