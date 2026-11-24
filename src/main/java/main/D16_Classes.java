@@ -23,6 +23,7 @@ public class D16_Classes {
 
       boolean isShining = light1.isShining();
       if (isShining) {
+         // direct field access would throw a NullPointerException here (no bulb installed yet)
          // System.out.println("light shines " + light1.lightBulb.color);
          System.out.println("light shines " + light1.getLightBulb().getColor());
       } else {

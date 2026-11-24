@@ -30,9 +30,9 @@ public class E04_Loops05 {
          }
 
          if (guess > randomNumber) {
-            System.out.println("Wrong, the number is smaller");
+            System.out.println("Wrong, your guess is too high");
          } else if (guess < randomNumber) {
-            System.out.println("Wrong, the number is larger");
+            System.out.println("Wrong, your guess is too low");
          }
 
          System.out.print("Do you want to guess again (true, false)?: ");

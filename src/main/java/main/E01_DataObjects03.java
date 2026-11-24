@@ -18,7 +18,7 @@ public class E01_DataObjects03 {
       /* Initialization */
       name = "Hans";
       age = 42;
-      gender = 'M';
+      gender = 'm';
 
       /* Output */
       System.out.println("Name: " + name);

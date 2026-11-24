@@ -21,6 +21,7 @@ public class E02_ConsoleApplications01 {
 
       result = a + b;
 
+      // Two equivalent ways to print the result: string concatenation vs. formatted output
       System.out.println("Result: " + a + " + " + b + " = " + result);
       System.out.printf("Result: %d + %d = %d%n", a, b, result);
    }
