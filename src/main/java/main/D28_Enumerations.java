@@ -23,9 +23,9 @@ public class D28_Enumerations {
       tableLights.add(tableLight3);
       tableLights.add(tableLight4);
 
-      for (TableLight t : tableLights) {
-         if (t.plugType() == PlugType.TYPE_F) {
-            System.out.println(t);
+      for (TableLight tableLight : tableLights) {
+         if (tableLight.plugType() == PlugType.TYPE_F) {
+            System.out.println(tableLight);
          }
       }
 

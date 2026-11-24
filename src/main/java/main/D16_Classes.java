@@ -4,7 +4,7 @@ import model.LightBulb;
 import model.TableLight;
 
 /**
- * Demo 16: Demonstrates class instantiation, field access, and method calls using the
+ * Demo 16: demonstrates class instantiation, field access, and method calls using the
  * {@link model.TableLight} and {@link model.LightBulb} model classes.
  */
 public class D16_Classes {
@@ -36,6 +36,7 @@ public class D16_Classes {
 
       isShining = light1.isShining();
       if (isShining) {
+         // direct field access would bypass encapsulation; use the getter instead
          // System.out.println("light shines " + light1.lightBulb.color);
          System.out.println("light shines " + light1.getLightBulb().getColor());
       } else {
@@ -47,6 +48,7 @@ public class D16_Classes {
 
       isShining = light1.isShining();
       if (isShining) {
+         // direct field access would bypass encapsulation; use the getter instead
          // System.out.println("light shines " + light1.lightBulb.color);
          System.out.println("light shines " + light1.getLightBulb().getColor());
       } else {

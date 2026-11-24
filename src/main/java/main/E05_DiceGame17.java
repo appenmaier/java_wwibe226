@@ -26,7 +26,8 @@ public class E05_DiceGame17 {
 
       System.out.println();
 
-      // %-8s left-aligns the headers to the same column width as the data rows below
+      // %-8s left-aligns the headers to the same column width as the data rows below;
+      // 10 is only a minimum width, so player names longer than 10 characters break the alignment
       System.out.printf("%-8s %-10s %-10s %s%n", "Round", name1, name2, "Difference");
       for (int i = 1; i <= 5; i++) {
          /* Roll the Dice */

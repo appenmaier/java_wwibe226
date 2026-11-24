@@ -34,7 +34,7 @@ public class D06_ConsoleInputs {
       System.out.println("char1: " + char1);
 
       System.out.print("Input multiple words: ");
-      // Consume the leftover newline from the previous nextBoolean()/next() call
+      // Consume the leftover newline from the previous token-based read (next())
       scanner.nextLine();
       String string2 = scanner.nextLine();
       System.out.println("string2: " + string2);

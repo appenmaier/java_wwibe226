@@ -56,8 +56,8 @@ public class D01_DataTypesAndDataObjects {
       System.out.println("char6: " + char6); // A
 
       /* Immutable Data Objects */
-      final char gender = 'M';
-      // gender = 'W'; // Compile Error
+      final char gender = 'm';
+      // gender = 'f'; // Compile Error
 
       /* Output */
       System.out.println("age: " + age);

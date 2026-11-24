@@ -45,6 +45,7 @@ public class D07_ConsoleOutputs {
 
       System.out.printf("| %-10s | %5s |%n", "Name", "Grade");
       System.out.printf("| ---------- | ----- |%n");
+      // %5.1f rounds to one decimal place: 5.0 / 3 = 1.666... is printed as 1.7
       System.out.printf("| %-10s | %5.1f |%n", "Hans", 5.0 / 3);
       System.out.printf("| %-10s | %5.1f |%n", "Peter", 3.184);
       System.out.printf("| %-10s | %5.1f |%n", "Anna", 2.7);
