@@ -26,11 +26,18 @@ public class D25_ArrayLists {
       names.remove("Barbara");
       names.remove(0);
 
-      /* Read Elements */
+      /* Read Elements with index loop */
       for (int i = 0; i < names.size(); i++) {
          String name = names.get(i);
          System.out.println(name);
       }
+      System.out.println();
+
+      /* Read Elements with for each loop */
+      for (String name : names) {
+         System.out.println(name);
+      }
+      System.out.println();
 
       /* Output */
       System.out.println(names);
