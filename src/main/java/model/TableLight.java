@@ -8,7 +8,15 @@ public class TableLight {
    private boolean isOn;
    private LightBulb lightBulb;
 
+   private static int numberOfTableLights;
+
    /* Methods */
+
+   /** Creates a new table lamp and increments the shared instance counter. */
+   public TableLight() {
+      numberOfTableLights++;
+   }
+
    /** Connects the lamp to the power supply. */
    public void plugIn() {
       isConnected = true;
@@ -81,6 +89,15 @@ public class TableLight {
    public String toString() {
       return "TableLight [isConnected=" + isConnected + ", isOn=" + isOn + ", lightBulb="
             + lightBulb + "]";
+   }
+
+   /**
+    * Returns the total number of {@link TableLight} instances created so far.
+    *
+    * @return the number of table lamp instances
+    */
+   public static int getNumberOfTableLights() {
+      return numberOfTableLights;
    }
 
 }
