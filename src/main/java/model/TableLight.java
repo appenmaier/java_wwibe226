@@ -25,7 +25,7 @@ public class TableLight {
 
    /** Creates a new table lamp with the default plug type {@link PlugType#TYPE_F}. */
    public TableLight() {
-      plugType = PlugType.TYPE_F;
+      this(PlugType.TYPE_F);
    }
 
    /** Connects the lamp to the power supply. */
