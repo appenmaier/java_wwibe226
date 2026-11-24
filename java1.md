@@ -27,11 +27,11 @@
   - [Konstruktoren und überladene Methoden](skript/java1/constructors.md)
   - [String toString()](skript/java1/tostring.md)
 - Termin 7, 24.11.2026
-  - Statische und nichtstatische Elemente
-  - ArrayLists und For-Each-Schleife
-  - Die Java API, Lesen von Dateien und Aufzählungen (Enumerations)
-  - Klassendiagramme und Aktivitätsdiagramme
+  - [Statische und nichtstatische Elemente](skript/java1/static-and-nonstatic.md)
+  - [ArrayLists und For-Each-Schleife](skript/java1/arraylists.md)
+  - [Die Java API, Lesen von Dateien und Aufzählungen (Enumerations)](skript/java1/java-api.md)
 - Termin 8, 27.11.2026
+  - Klassendiagramme und Aktivitätsdiagramme
   - Vererbung und (Dynamische) Polymorphie
 - Termin 9, 01.12.2026
   - Die Mutter aller Klassen
@@ -42,10 +42,11 @@
 
 ## Gestaltungsprinzipien
 
-| Prinzip | Bedeutung               |
-| ------- | ----------------------- |
-| DRY     | Don´t Repeat Yourself   |
-| KISS    | Keep It Simple, Stupid! |
+| Prinzip | Bedeutung                |
+| ------- | ------------------------ |
+| DRY     | Don't Repeat Yourself    |
+| KISS    | Keep It Simple, Stupid!  |
+| YAGNI   | Youn Ain't Gonna Need It |
 
 ## Musterklausur
 
