@@ -27,9 +27,9 @@
   - [Konstruktoren und überladene Methoden](skript/java1/constructors.md)
   - [String toString()](skript/java1/tostring.md)
 - Termin 7, 24.11.2026
-  - Statische und nichtstatische Elemente
-  - ArrayLists und For-Each-Schleife
-  - Die Java API, Lesen von Dateien und Aufzählungen (Enumerations)
+  - [Statische und nichtstatische Elemente](static-and-non-static.md)
+  - [ArrayLists und For-Each-Schleife](arraylists.md)
+  - [Die Java API, Lesen von Dateien und Aufzählungen (Enumerations)](java-api.md)
   - Klassendiagramme und Aktivitätsdiagramme
 - Termin 8, 27.11.2026
   - Vererbung und (Dynamische) Polymorphie
