@@ -30,8 +30,8 @@
   - [Statische und nichtstatische Elemente](static-and-non-static.md)
   - [ArrayLists und For-Each-Schleife](arraylists.md)
   - [Die Java API, Lesen von Dateien und Aufzählungen (Enumerations)](java-api.md)
-  - Klassendiagramme und Aktivitätsdiagramme
 - Termin 8, 27.11.2026
+  - Klassendiagramme und Aktivitätsdiagramme
   - Vererbung und (Dynamische) Polymorphie
 - Termin 9, 01.12.2026
   - Die Mutter aller Klassen
@@ -42,10 +42,11 @@
 
 ## Gestaltungsprinzipien
 
-| Prinzip | Bedeutung               |
-| ------- | ----------------------- |
-| DRY     | Don´t Repeat Yourself   |
-| KISS    | Keep It Simple, Stupid! |
+| Prinzip | Bedeutung                |
+| ------- | ------------------------ |
+| DRY     | Don't Repeat Yourself    |
+| KISS    | Keep It Simple, Stupid!  |
+| YAGNI   | Youn Ain't Gonna Need It |
 
 ## Musterklausur
 
