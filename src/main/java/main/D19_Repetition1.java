@@ -10,37 +10,48 @@ public class D19_Repetition1 {
 
    public static void main(String[] args) {
       /* Yellow Legs */
-      LegoFigureLegs yellowLegs = new LegoFigureLegs();
-      yellowLegs.leftLeg = "Yellow Default";
-      yellowLegs.rightLeg = "Yellow Default";
+      // LegoFigureLegs yellowLegs = new LegoFigureLegs();
+      // yellowLegs.leftLeg = "Yellow Default";
+      // yellowLegs.rightLeg = "Yellow Default";
+      LegoFigureLegs yellowLegs = new LegoFigureLegs("Yellow Default", "Yellow Default");
 
       /* Red Legs */
-      LegoFigureLegs redLegs = new LegoFigureLegs();
-      redLegs.leftLeg = "Red Default";
-      redLegs.rightLeg = "Red Default";
+      // LegoFigureLegs redLegs = new LegoFigureLegs();
+      // redLegs.leftLeg = "Red Default";
+      // redLegs.rightLeg = "Red Default";
+      LegoFigureLegs redLegs = new LegoFigureLegs("Red Default", "Red Default");
 
       /* LEGO Figure Space Marine */
-      LegoFigure spaceMarine = new LegoFigure();
-      spaceMarine.torso = "Yellow Space Marine";
-      spaceMarine.head = "Default";
-      spaceMarine.legs = yellowLegs;
-      spaceMarine.headGear = "White Helmet";
+      // LegoFigure spaceMarine = new LegoFigure();
+      // spaceMarine.torso = "Yellow Space Marine";
+      // spaceMarine.head = "Default";
+      // spaceMarine.legs = yellowLegs;
+      // spaceMarine.headGear = "White Helmet";
+      LegoFigure spaceMarine = new LegoFigure("Default", "Yellow Space Marine", yellowLegs);
+      spaceMarine.setHeadGear("White Helmet");
 
-      spaceMarine.present();
+      // spaceMarine.present();
+      System.out.println(spaceMarine);
       spaceMarine.executeAction("Raise hand");
 
       System.out.println();
 
       /* LEGO Figure Red Knight */
-      LegoFigure redKnight = new LegoFigure();
-      redKnight.torso = "Red Knight";
-      redKnight.head = "Default";
-      redKnight.legs = redLegs;
-      redKnight.headGear = "Knight Helmet";
-      redKnight.toolLeft = "Shield";
-      redKnight.toolRight = "Sword";
+      // LegoFigure redKnight = new LegoFigure();
+      // redKnight.torso = "Red Knight";
+      // redKnight.head = "Default";
+      // redKnight.legs = redLegs;
+      // redKnight.headGear = "Knight Helmet";
+      // redKnight.toolLeft = "Shield";
+      // redKnight.toolRight = "Sword";
+      LegoFigure redKnight = new LegoFigure("Default", "Red Knight", redLegs);
+      redKnight.setHeadGear("Knight Helmet");
+      redKnight.setToolLeft("Shield");
+      redKnight.setToolRight("Axe");
+      redKnight.setToolRight("Sword");
 
-      redKnight.present();
+      // redKnight.present();
+      System.out.println(redKnight);
       redKnight.walk();
       redKnight.executeAction("Attack with sword");
    }

@@ -6,14 +6,55 @@ package model;
 public class LegoFigure {
 
    /* Attributes */
-   public String head;
-   public String torso;
-   public LegoFigureLegs legs;
-   public String headGear;
-   public String toolLeft;
-   public String toolRight;
+   private final String head;
+   private final String torso;
+   private final LegoFigureLegs legs;
+   private String headGear;
+   private String toolLeft;
+   private String toolRight;
 
    /* Methods */
+
+   /**
+    * Creates a LEGO figure with the given head, torso, and legs.
+    *
+    * @param head  the head piece identifier
+    * @param torso the torso piece identifier
+    * @param legs  the leg assembly attached to this figure
+    */
+   public LegoFigure(String head, String torso, LegoFigureLegs legs) {
+      this.head = head;
+      this.torso = torso;
+      this.legs = legs;
+   }
+
+   /**
+    * Equips the figure with the given head gear.
+    *
+    * @param headGear the head gear piece identifier
+    */
+   public void setHeadGear(String headGear) {
+      this.headGear = headGear;
+   }
+
+   /**
+    * Places a tool in the figure's left hand.
+    *
+    * @param toolLeft the tool identifier for the left hand
+    */
+   public void setToolLeft(String toolLeft) {
+      this.toolLeft = toolLeft;
+   }
+
+   /**
+    * Places a tool in the figure's right hand.
+    *
+    * @param toolRight the tool identifier for the right hand
+    */
+   public void setToolRight(String toolRight) {
+      this.toolRight = toolRight;
+   }
+
    /**
     * Prints a walking message to the console.
     */
@@ -30,15 +71,34 @@ public class LegoFigure {
       System.out.println(action);
    }
 
-   /**
-    * Prints all parts of this figure (head gear, head, torso, legs, tools) to the console.
-    */
-   public void present() {
-      System.out.println(headGear);
-      System.out.println(head);
-      System.out.println(torso);
-      System.out.println("Legs: " + legs.leftLeg + ", " + legs.rightLeg);
-      System.out.println("Tools: " + toolLeft + ", " + toolRight);
+   public String getHead() {
+      return head;
+   }
+
+   public String getTorso() {
+      return torso;
+   }
+
+   public LegoFigureLegs getLegs() {
+      return legs;
+   }
+
+   public String getHeadGear() {
+      return headGear;
+   }
+
+   public String getToolLeft() {
+      return toolLeft;
+   }
+
+   public String getToolRight() {
+      return toolRight;
+   }
+
+   @Override
+   public String toString() {
+      return "LegoFigure [head=" + head + ", torso=" + torso + ", legs=" + legs + ", headGear="
+            + headGear + ", toolLeft=" + toolLeft + ", toolRight=" + toolRight + "]";
    }
 
 }
