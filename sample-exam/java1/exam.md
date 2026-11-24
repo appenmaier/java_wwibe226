@@ -5,7 +5,7 @@
 - Die in dieser Klausur verwendeten Personenbezeichnungen beziehen sich – sofern nicht anders kenntlich gemacht – auf alle Geschlechter
 - Pakete und Klassenimporte müssen nicht angegeben werden
 - Es kann davon ausgegangen werden, dass sämtliche Klassen entsprechende Implementierungen der Object-Methoden besitzen
-- So nicht anders angegeben sollen Konstruktoren, Setter, Getter sowie die Object-Methoden wie in der Vorlesung gezeigt implementiert werden
+- Sofern nicht anders angegeben sollen Konstruktoren, Setter, Getter sowie die Object-Methoden wie in der Vorlesung gezeigt implementiert werden
 - Die Konsolenausgaben-Methoden der Klasse **PrintStream** dürfen sinnvoll gekürzt geschrieben werden (zum Beispiel **syso("Hello World")** statt **System.out.println("Hello World")**)
 - Methoden- und Attributsbezeichner dürfen sinnvoll gekürzt geschrieben werden (zum Beispiel **getLWMCP()** statt **getLectureWithMostCreditPoints()**)
 
@@ -53,25 +53,31 @@
 
 **java.lang**
 
-| Klasse  | Methode                | Rückgabetyp | Level |
-| ------- | ---------------------- | ----------- | ----- |
-| Boolean | valueOf(s: String)     | Boolean     | S     |
-| Boolean | valueOf(b: boolean)    | Boolean     | S     |
-| Double  | valueOf(s: String)     | Double      | S     |
-| Double  | valueOf(d: double)     | Double      | S     |
-| Integer | valueOf(s: String)     | Integer     | S     |
-| Integer | valueOf(i: int)        | Integer     | S     |
-| Long    | valueOf(s: String)     | Long        | S     |
-| Long    | valueOf(l: long)       | Long        | S     |
-| Object  | equals(object: Object) | boolean     |       |
-| Object  | hashCode()             | int         |       |
-| Object  | toString()             | String      |       |
-| String  | charAt(index: int)     | char        |       |
-| String  | length()               | int         |       |
-| String  | split(regex: String)   | String[]    |       |
-| String  | toLowerCase()          | String      |       |
-| String  | toUpperCase()          | String      |       |
-| System  | currentTimeMillis()    | long        | S     |
+| Klasse  | Methode                 | Rückgabetyp | Level |
+| ------- | ----------------------- | ----------- | ----- |
+| Boolean | parseBoolean(s: String) | boolean     | S     |
+| Boolean | valueOf(s: String)      | Boolean     | S     |
+| Boolean | valueOf(b: boolean)     | Boolean     | S     |
+| Double  | parseDouble(s: String)  | double      | S     |
+| Double  | valueOf(s: String)      | Double      | S     |
+| Double  | valueOf(d: double)      | Double      | S     |
+| Enum    | valueOf(s: String)      | E           | S     |
+| Enum    | values()                | E[]         | S     |
+| Integer | parseInt(s: String)     | int         | S     |
+| Integer | valueOf(s: String)      | Integer     | S     |
+| Integer | valueOf(i: int)         | Integer     | S     |
+| Long    | parseLong(s: String)    | long        | S     |
+| Long    | valueOf(s: String)      | Long        | S     |
+| Long    | valueOf(l: long)        | Long        | S     |
+| Object  | equals(object: Object)  | boolean     |       |
+| Object  | hashCode()              | int         |       |
+| Object  | toString()              | String      |       |
+| String  | charAt(index: int)      | char        |       |
+| String  | length()                | int         |       |
+| String  | split(regex: String)    | String[]    |       |
+| String  | toLowerCase()           | String      |       |
+| String  | toUpperCase()           | String      |       |
+| System  | currentTimeMillis()     | long        | S     |
 
 **java.time**
 
@@ -96,8 +102,6 @@
 
 | Klasse      | Methode                          | Rückgabetyp   | Level |
 | ----------- | -------------------------------- | ------------- | ----- |
-| Enumeration | valueOf(arg0: String)            | Enumeration   | S     |
-| Enumeration | values()                         | Enumeration[] | S     |
 | List<E>     | add(e: E)                        | boolean       |       |
 | List<E>     | add(index: int, element: E)      | void          |       |
 | List<E>     | contains(o: Object)              | boolean       |       |
