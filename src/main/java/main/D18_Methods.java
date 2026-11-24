@@ -4,7 +4,7 @@ import helper.StringArrayHelper;
 import model.StringArray;
 
 /**
- * Demo 18: Contrasts procedural and object-oriented approaches to managing a
+ * Demo 18: contrasts procedural and object-oriented approaches to managing a
  * dynamic string collection using {@link helper.StringArrayHelper} and {@link model.StringArray}.
  */
 public class D18_Methods {

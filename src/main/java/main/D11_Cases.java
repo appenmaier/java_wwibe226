@@ -3,7 +3,7 @@ package main;
 import java.util.Scanner;
 
 /**
- * Demo 11: Demonstrates switch expressions as a concise alternative to if-else chains.
+ * Demo 11: demonstrates switch expressions as a concise alternative to if-else chains.
  */
 public class D11_Cases {
 

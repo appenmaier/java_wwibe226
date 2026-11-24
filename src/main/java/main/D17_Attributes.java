@@ -6,7 +6,7 @@ import model.Flight;
 import model.FlightConnection;
 
 /**
- * Demo 17: Demonstrates class attributes by creating {@link model.Flight} and
+ * Demo 17: demonstrates class attributes by creating {@link model.Flight} and
  * {@link model.FlightConnection} objects and printing their data.
  */
 public class D17_Attributes {

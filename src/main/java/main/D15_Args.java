@@ -1,7 +1,7 @@
 package main;
 
 /**
- * Demo 15: Demonstrates how to access and print command-line arguments passed to the program.
+ * Demo 15: demonstrates how to access and print command-line arguments passed to the program.
  */
 public class D15_Args {
 

@@ -3,7 +3,7 @@ package main;
 import java.util.Arrays;
 
 /**
- * Demo 14: Demonstrates array declaration, initialization, element access, and sequential
+ * Demo 14: demonstrates array declaration, initialization, element access, and sequential
  * iteration, including the difference between default {@code toString()} and
  * {@code Arrays.toString()}.
  */

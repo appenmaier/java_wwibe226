@@ -3,7 +3,7 @@ package main;
 import java.util.Scanner;
 
 /**
- * Demo 13: Demonstrates loop control with {@code continue} to skip characters and {@code break} to
+ * Demo 13: demonstrates loop control with {@code continue} to skip characters and {@code break} to
  * find the first occurrence of a character in a string.
  */
 public class D13_LoopControl {

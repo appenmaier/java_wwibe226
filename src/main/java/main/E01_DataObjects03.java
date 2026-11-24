@@ -3,9 +3,6 @@ package main;
 /**
  * Exercise: declares and initializes variables of types {@code String}, {@code int},
  * and {@code char}, then prints each value to the console.
- *
- * @author Daniel Appenmaier
- * @version 1.0
  */
 public class E01_DataObjects03 {
 
