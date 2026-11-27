@@ -42,7 +42,7 @@ public class FlashLight extends Light {
     */
    @Override
    public boolean isShining() {
-      return isOn() && energyLevel >= 0;
+      return isOn() && energyLevel > 0;
    }
 
    public double getEnergyLevel() {

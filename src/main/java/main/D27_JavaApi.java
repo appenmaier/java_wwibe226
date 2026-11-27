@@ -21,13 +21,16 @@ public class D27_JavaApi {
       /* Performance Measurement */
       long start = System.currentTimeMillis();
 
+      // Do some lightweight work so there is something to measure
+      long sum = 0;
       for (int i = 0; i < 1_000_000; i++) {
-         System.out.println(i);
+         sum += i;
       }
 
       long end = System.currentTimeMillis();
 
-      System.out.println(end - start);
+      System.out.println("sum: " + sum);
+      System.out.println("elapsed time in ms: " + (end - start));
 
       /* Date and Time */
       LocalDateTime now = LocalDateTime.now();
