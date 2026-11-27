@@ -9,8 +9,8 @@ import model.PlugType;
 import model.TableLight;
 
 /**
- * Demo 30: demonstrates inheritance, upcasting, downcasting, and polymorphism
- * using a common {@link Light} superclass.
+ * Demo 30: demonstrates inheritance, upcasting, downcasting, and polymorphism using a common
+ * {@link Light} superclass.
  */
 public class D30_Inheritance {
 
@@ -62,14 +62,14 @@ public class D30_Inheritance {
 
       /* Approach with Inheritance */
       ArrayList<Light> lights = new ArrayList<>();
-      Light light1 = tableLight1; // explicit upcast
+      Light light1 = tableLight1; // upcast
       lights.add(light1);
-      lights.add(tableLight2); // implicit upcast
-      lights.add(tableLight3); // implicit upcast
-      lights.add(flashLight1); // implicit upcast
-      lights.add(flashLight2); // implicit upcast
-      lights.add(flashLight3); // implicit upcast
-      lights.add(flashLight4); // implicit upcast
+      lights.add(tableLight2); // upcast
+      lights.add(tableLight3); // upcast
+      lights.add(flashLight1); // upcast
+      lights.add(flashLight2); // upcast
+      lights.add(flashLight3); // upcast
+      lights.add(flashLight4); // upcast
 
       for (Light light : lights) {
          light.switchOn(); // dynamic polymorphism
