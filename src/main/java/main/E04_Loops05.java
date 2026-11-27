@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
- * Exercise 04 (Loops05): Number guessing game where the user tries to guess a random number
+ * Exercise 04: Number guessing game where the user tries to guess a random number
  * between 1 and 100, with hints after each wrong guess and the option to stop guessing.
  */
 public class E04_Loops05 {
@@ -31,7 +31,7 @@ public class E04_Loops05 {
 
          if (guess > randomNumber) {
             System.out.println("Wrong, your guess is too high");
-         } else if (guess < randomNumber) {
+         } else {
             System.out.println("Wrong, your guess is too low");
          }
 

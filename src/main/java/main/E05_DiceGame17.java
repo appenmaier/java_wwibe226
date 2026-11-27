@@ -32,8 +32,8 @@ public class E05_DiceGame17 {
       for (int i = 1; i <= 5; i++) {
          /* Roll the Dice */
          for (int j = 0; j < dice1.length; j++) {
-            dice1[j] = E05_DiceGame17.rollTheDice(random);
-            dice2[j] = E05_DiceGame17.rollTheDice(random);
+            dice1[j] = rollTheDice(random);
+            dice2[j] = rollTheDice(random);
          }
 
          /* Sum the Dice Values */

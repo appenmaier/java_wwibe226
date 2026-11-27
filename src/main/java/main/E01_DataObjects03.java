@@ -1,7 +1,7 @@
 package main;
 
 /**
- * Exercise: declares and initializes variables of types {@code String}, {@code int},
+ * Exercise 01: declares and initializes variables of types {@code String}, {@code int},
  * and {@code char}, then prints each value to the console.
  */
 public class E01_DataObjects03 {

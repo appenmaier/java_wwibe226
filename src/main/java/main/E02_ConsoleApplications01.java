@@ -3,7 +3,7 @@ package main;
 import java.util.Scanner;
 
 /**
- * Exercise: reads two integers from the console and prints their sum.
+ * Exercise 02: reads two integers from the console and prints their sum.
  */
 public class E02_ConsoleApplications01 {
 
@@ -21,9 +21,7 @@ public class E02_ConsoleApplications01 {
 
       result = a + b;
 
-      // Two equivalent ways to print the result: string concatenation vs. formatted output
       System.out.println("Result: " + a + " + " + b + " = " + result);
-      System.out.printf("Result: %d + %d = %d%n", a, b, result);
    }
 
 }

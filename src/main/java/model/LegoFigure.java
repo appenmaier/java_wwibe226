@@ -18,9 +18,9 @@ public class LegoFigure {
    /**
     * Creates a LEGO figure with the given head, torso, and legs.
     *
-    * @param head the head piece identifier
-    * @param torso the torso piece identifier
-    * @param legs the leg assembly attached to this figure
+    * @param head the head piece of this figure
+    * @param torso the torso piece of this figure
+    * @param legs the leg assembly of this figure
     */
    public LegoFigure(LegoFigureHead head, LegoFigureTorso torso, LegoFigureLegs legs) {
       this.head = head;

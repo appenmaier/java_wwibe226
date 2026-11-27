@@ -3,7 +3,7 @@ package main;
 import java.util.Scanner;
 
 /**
- * Exercise: reads two integers from the console and prints what percentage the first is of the second.
+ * Exercise 03: reads two integers from the console and prints what percentage the first is of the second.
  */
 public class E03_ConsoleApplications02 {
 

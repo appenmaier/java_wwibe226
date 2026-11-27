@@ -82,8 +82,8 @@ public class D30_Inheritance {
             tableLight.plugIn();
          }
 
-         System.out.println(light.isShining()); // static and dynamic polymorphism
-         System.out.println(light.toString()); // static and dynamic polymorphism
+         System.out.println(light.isShining()); // dynamic polymorphism
+         System.out.println(light.toString()); // dynamic polymorphism
 
          light.switchOff();
 
