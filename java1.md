@@ -31,10 +31,10 @@
   - [ArrayLists und For-Each-Schleife](skript/java1/arraylists.md)
   - [Die Java API, Lesen von Dateien und Aufzählungen (Enumerations)](skript/java1/java-api.md)
 - Termin 8, 27.11.2026
-  - Klassendiagramme und Aktivitätsdiagramme
-  - Vererbung und (Dynamische) Polymorphie
+  - [Klassendiagramme](skript/java1/class-diagrams.md)
+  - [Vererbung und (Dynamische) Polymorphie](skript/java1/inheritance.md)
+  - [Die Mutter aller Klassen](skript/java1/object.md)
 - Termin 9, 01.12.2026
-  - Die Mutter aller Klassen
   - Abstrakte und finale Klassen und Methoden
   - Schnittstellen (Interfaces) und Listen
 - Termin 10, 10.12.2026
