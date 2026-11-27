@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Objects;
+
 /**
  * Represents a flashlight powered by a rechargeable battery.
  */
@@ -50,6 +52,26 @@ public class FlashLight extends Light {
    @Override
    public String toString() {
       return "FlashLight [isOn=" + isOn() + ", energyLevel=" + energyLevel + "]";
+   }
+
+   @Override
+   public int hashCode() {
+      return Objects.hash(energyLevel);
+   }
+
+   @Override
+   public boolean equals(Object obj) {
+      if (this == obj) {
+         return true;
+      }
+      if (obj == null) {
+         return false;
+      }
+      if (getClass() != obj.getClass()) {
+         return false;
+      }
+      FlashLight other = (FlashLight) obj;
+      return Double.doubleToLongBits(energyLevel) == Double.doubleToLongBits(other.energyLevel);
    }
 
 }
