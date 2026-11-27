@@ -1,11 +1,10 @@
 package model;
 
 /** Represents a table lamp that can be connected to power and switched on or off. */
-public class TableLight {
+public class TableLight extends Light {
 
    /* Attributes */
    private boolean isConnected;
-   private boolean isOn;
    private LightBulb lightBulb;
    private final PlugType plugType;
 
@@ -38,16 +37,6 @@ public class TableLight {
       isConnected = false;
    }
 
-   /** Turns the lamp on. */
-   public void switchOn() {
-      isOn = true;
-   }
-
-   /** Turns the lamp off. */
-   public void switchOff() {
-      isOn = false;
-   }
-
    /**
     * Replaces the current light bulb with a new one and returns the old one.
     *
@@ -65,6 +54,7 @@ public class TableLight {
     *
     * @return {@code true} if connected, switched on, and a bulb is installed
     */
+   @Override
    public boolean isShining() {
       /* Variant A */
       // if (isConnected == true && isOn == true && lightBulb != null) {
@@ -81,7 +71,7 @@ public class TableLight {
       // }
 
       /* Variant C */
-      return isConnected && isOn && lightBulb != null;
+      return isConnected && isOn() && lightBulb != null;
    }
 
    public LightBulb getLightBulb() {
@@ -92,17 +82,13 @@ public class TableLight {
       return isConnected;
    }
 
-   public boolean isOn() {
-      return isOn;
-   }
-
    public PlugType plugType() {
       return plugType;
    }
 
    @Override
    public String toString() {
-      return "TableLight [isConnected=" + isConnected + ", isOn=" + isOn + ", lightBulb="
+      return "TableLight [isConnected=" + isConnected + ", isOn=" + isOn() + ", lightBulb="
             + lightBulb + ", plugType=" + plugType + "]";
    }
 
