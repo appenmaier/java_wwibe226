@@ -6,8 +6,8 @@ package model;
 public class LegoFigure {
 
    /* Attributes */
-   private final String head;
-   private final String torso;
+   private final LegoFigureHead head;
+   private final LegoFigureTorso torso;
    private final LegoFigureLegs legs;
    private String headGear;
    private String leftTool;
@@ -18,11 +18,11 @@ public class LegoFigure {
    /**
     * Creates a LEGO figure with the given head, torso, and legs.
     *
-    * @param head  the head piece identifier
+    * @param head the head piece identifier
     * @param torso the torso piece identifier
-    * @param legs  the leg assembly attached to this figure
+    * @param legs the leg assembly attached to this figure
     */
-   public LegoFigure(String head, String torso, LegoFigureLegs legs) {
+   public LegoFigure(LegoFigureHead head, LegoFigureTorso torso, LegoFigureLegs legs) {
       this.head = head;
       this.torso = torso;
       this.legs = legs;
@@ -71,11 +71,11 @@ public class LegoFigure {
       System.out.println(action);
    }
 
-   public String getHead() {
+   public LegoFigureHead getHead() {
       return head;
    }
 
-   public String getTorso() {
+   public LegoFigureTorso getTorso() {
       return torso;
    }
 
